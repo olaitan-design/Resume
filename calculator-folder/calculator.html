@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <header>
+        <h1>Standard calculator</h1>
+    </header>
+    <a href="../index.html">Resume page</a>
+    <nav>
+        <ul type="circle">select type
+            <li>
+                <a href="calculator.html">Normal Calculator</a>
+            </li>
+           
+            <li>
+               <a href="advanceCalculator.html"> Scientific Calculator</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="calculator">
+         <input type="text" name="display" id="display" placeholder="0" readonly >
+        <div class="numbers">
+            <div class="num one">
+               <button type="button" value="1" title="1">1</button> 
+            </div>
+            <div class="num two">
+                <button type="button" value="2" title="2">2</button> 
+            </div>
+            <div class="num three">
+                <button type="button" value="3" title="3">3</button> 
+            </div>
+            <div class="num multiply" >
+                <button type="button" value="*" id = "multiply" title="multiply">*</button> 
+            </div>
+            
+            
+            <div class="num four">
+                <button type="button" value="4" title="4">4</button> 
+            </div>
+            <div class="num five">
+                <button type="button" value="5" title="5">5</button> 
+            </div>
+            <div class="num six">
+                <button type="button" value="6" title="6">6</button> 
+            </div>
+            <div class="num add" id = 'add'>
+                <button type="button" value="+" title="Add">+</button> 
+            </div>
+
+            <div class="num seven">
+                <button type="button" value="7" title="7">7</button> 
+            </div>
+
+            <div class="num eight">
+                <button type="button" value="8" title="8">8</button> 
+            </div>
+
+            <div class="num nine">
+                <button type="button" value="9" title="9">9</button> 
+            </div>
+            
+            <div class="num minus">
+                <button type="button" value="-" title="subtract">-</button> 
+            </div>
+
+            <div class="num clearLastNum">
+                <button type="button" value="c" title="del">C</button> 
+            </div>
+
+            <div class="num zero">
+                <button type="button" value="0" title="0">0</button> 
+            </div>
+
+            <div class="num division">
+                <button type="button" value="/" title="divide">/</button> 
+            </div>
+
+            <div class="num"> 
+                <button type="button" value="=">=</button> 
+            </div>
+
+            <div class="num clear">
+                <button type="button" value="clear" title="clear">AC</button> 
+            </div>
+
+            <div class="num modulus">
+                <button type="button" value="/100" title="percent">%</button> 
+            </div>
+            <div class="num decima">
+                <button type="button" value="." title=".">.</button> 
+            </div>
+           
+           
+    </main>
+    <footer>
+       
+    </footer>
+    <script src="calculator.js"></script>
+</body>
+</html>
